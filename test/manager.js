@@ -15,7 +15,7 @@ M.login = function (id, password) {
   }
 }
 
-var user1 = M.login('ccc', '1111')
-console.log('user1=%j', user1)
-var user2 = M.login('ccc', '1234567')
-console.log('user2=%j', user2)
+// var user1 = M.login('ccc', '1111')
+// console.log('user1=%j', user1)
+// var user2 = M.login('ccc', '1234567')
+// console.log('user2=%j', user2)
