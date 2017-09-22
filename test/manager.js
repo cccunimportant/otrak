@@ -10,7 +10,7 @@ var userMap = {
 
 M.login = function (id, password) {
   var user = userMap[id]
-  if (user.password === password) {
+  if (typeof user !== 'undefined' && user.password === password) {
     return user
   }
 }
