@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 var expect = require('chai').expect
 describe('otrak (BDD style)', function () {
-  var M = require('./manager')
+  var M = require('./mock')
   var ccc = {username: 'ccc', password: '1234567'}
   var jack = {username: 'jack', password: 'jack1234'}
   describe('signup', function () {

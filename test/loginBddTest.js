@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 var expect = require('chai').expect
 describe('otrak (BDD style)', function () {
-  var M = require('./manager')
+  var M = require('./mock')
   describe('login', function () {
     it('login(ccc, 1111).to.be.an(undefined)', function () {
       expect(M.login('ccc', '1111')).to.be.an('undefined')
