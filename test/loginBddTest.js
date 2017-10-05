@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-// var assert = require('assert')
 var expect = require('chai').expect
 describe('otrak (BDD style)', function () {
   var M = require('./manager')

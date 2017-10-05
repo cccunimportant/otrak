@@ -1,15 +1,9 @@
-var M = module.exports = {}
-
-var ccc = {username: 'ccc', password: '1234567'}
-var snoopy = {username: 'snoopy', password: '7654321'}
-
-var userMap = {
-  'ccc': ccc,
-  'snoopy': snoopy
+var M = module.exports = {
+  db: require('./database')
 }
 
 M.login = function (username, password) {
-  var user = userMap[username]
+  var user = M.db.getUserByName(username)
   if (typeof user !== 'undefined' && user.password === password) {
     return user
   }

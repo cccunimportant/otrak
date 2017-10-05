@@ -7,7 +7,7 @@ describe('otrak', function () {
     it('login(ccc, 1111).isUndefined', function () {
       assert.isUndefined(M.login('ccc', '1111'))
     })
-    it('login(ccc, 1234567).id===ccc', function () {
+    it('login(ccc, 1234567).username===ccc', function () {
       assert.equal('ccc', M.login('ccc', '1234567').username)
     })
     it('login(leo, 1111).isUndefined', function () {
