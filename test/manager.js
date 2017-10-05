@@ -9,6 +9,10 @@ M.login = function (username, password) {
   }
 }
 
+M.signup = function (user) {
+  return M.db.addUser(user)
+}
+
 // var user1 = M.login('ccc', '1111')
 // console.log('user1=%j', user1)
 // var user2 = M.login('ccc', '1234567')

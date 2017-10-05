@@ -8,3 +8,9 @@ DB.userList = [
 DB.getUserByName = function (username) {
   return DB.userList.find((user) => user.username === username)
 }
+
+DB.addUser = function (user) {
+  if (DB.getUserByName(user.username) != null) return
+  DB.userList.push(user)
+  return user
+}
