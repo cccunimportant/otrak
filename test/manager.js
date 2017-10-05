@@ -1,15 +1,15 @@
 var M = module.exports = {}
 
-var ccc = {id: 'ccc', password: '1234567'}
-var snoopy = {id: 'snoopy', password: '7654321'}
+var ccc = {username: 'ccc', password: '1234567'}
+var snoopy = {username: 'snoopy', password: '7654321'}
 
 var userMap = {
   'ccc': ccc,
   'snoopy': snoopy
 }
 
-M.login = function (id, password) {
-  var user = userMap[id]
+M.login = function (username, password) {
+  var user = userMap[username]
   if (typeof user !== 'undefined' && user.password === password) {
     return user
   }
