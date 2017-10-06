@@ -31,7 +31,7 @@ describe('otrak (mock integration test)', function () {
     it('queryObjects({distance:0.1, location:gps.getCurrentLocation()}).not.to.be.empty', function () {
       expect(M.queryObjects({distance: 0.1, location: M.gps.getCurrentLocation()})).not.to.be.empty
     })
-    it('queryObjects({distance:0.0001, location:gps.getCurrentLocation()}).not.to.be.empty', function () {
+    it('queryObjects({distance:0.0001, location:gps.getCurrentLocation()}).to.be.empty', function () {
       expect(M.queryObjects({distance: 0.0001, location: M.gps.getCurrentLocation()})).to.be.empty
     })
   })
