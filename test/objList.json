@@ -1,0 +1,7 @@
+[
+  { "id": "1", "type": "book", "title": "計算機結構", "owner": "ccc", "price": 100, "quantity": 1, "location": {"lat": 24.450606, "lng": 118.335100} },
+  { "id": "2", "type": "book", "title": "系統程式", "owner": "ccc", "price": 50, "quantity": 2, "location": {"lat": 24.450606, "lng": 118.330100} },
+  { "id": "3", "type": "room", "title": "套房出租", "owner": "snoopy", "price": 5000, "quantity": 5, "location": {"lat": 24.455606, "lng": 118.330100} },
+  { "id": "4", "type": "room", "title": "雅房出租", "owner": "snoopy", "price": 3000, "quantity": 1, "location": {"lat": 24.455606, "lng": 118.335100} },
+  { "id": "5", "type": "book", "title": "JavaScript Foundation", "owner": "mike", "price": 3000, "quantity": 1, "location": {"lat": 23.455606, "lng": 5.335100} }
+]
