@@ -1,6 +1,6 @@
 {
   "name": "otrak",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Everything (object) tracking system",
   "main": "lib/model.js",
   "dependencies": {},
@@ -14,6 +14,6 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/cccnqu/otrak.git"
-  },  
+  },
   "license": "MIT"
 }
